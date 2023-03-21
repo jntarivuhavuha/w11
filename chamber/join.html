@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Port Vila Chamber of Commerce</title>    
+</head>
+
+<body>
+<header>
+  <div class="headname">
+    <img class="logo" src="images/logo3.png" alt="Port Vila Chamber of Commerce">
+    <h1 class="header-title">Vila Chamber of Commerce</h1>
+ </div>
+
+ <div class="social">
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="https://mobile.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+ </div>
+    
+ <div>
+    <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+ </div>
+    <div class="menu">
+    <nav>
+      <ul id="primaryNav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li class="active"><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li> 
+        </ul>
+    </nav>
+ </div>
+
+    <div class="date-header">
+        <p id="datetime"></p>
+    </div>
+
+</header>
+
+    <div class="form">
+        <form method="get" action="thanks.html">
+            
+           <label class="for">First Name* 
+           <input type="text" name="fname" required></label>
+           
+            
+           <label class="for">Last Name* 
+           <input type="text" name="lname" required></label>
+           
+
+           <label class="for">Position Title
+           <input type="text" name="Position Title" required></label>
+            
+           <label class="for">Email
+           <input type="email" name="Email" required placeholder="example@example.com"></label>
+
+           <label class="for">Cell Phone
+           <input type="tel" name="phone" placeholder="1235551234"></label>
+
+           <label class="for">Business Name
+           <input type="text" name="business-name" required></label>
+           
+            
+           <label class="for">Membership Level</label>
+           <select id="membership-level" name="membership-level">
+              <option value="">Please Select</option>
+            <option value="NP">NP Membership</option>
+            <option value="Bronze">Bronze Membership</option>
+            <option value="Silver">Silver Membership</option>
+            <option value="Gold">Gold Membership</option>
+          </select>
+            
+          <label class="for">Business Description</label>
+          <textarea id="business-description" name="business-description"></textarea>
+        
+          
+
+           <input type="hidden" id="form-date" name="form-date" value="">
+    
+           <input type="submit" value="Join Now" class="submitBtn"> 
+        </form>
+    
+<footer>
+    <div class="logo-footer">
+    <img class="logo" src="images/logo9.JPG" alt="Chamber of Commerce">
+    </div>
+    <div class="title-footer">
+        <h2>Vila Chamber of Commerce</h2>
+    </div>
+    <div class="contact">
+        <p>jntarivuhavuha@gmail.com</p>
+        <p>+(678) 5405523</p>
+        <a href="https://www.google.com/maps/place/Port+Vila/@-17.7342211,168.3330872,18.75z/data=!4m5!3m4!1s0x6e89605ec8926013:0x3ce794672329c796!8m2!3d-17.7332512!4d168.3273245">📍 Location</a>
+
+        <br><br>
+
+    </div>
+    <div class="info">
+        <span>  &nbsp; &nbsp; &copy;<span id="©">
+        </span>  &nbsp; Vila Chamber of Commerce &nbsp;</span> |  &nbsp; Joel N Tarivuhavuha &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/imageloading.js"></script>
+<script src="js/localstorage.js"></script>
+</body>
+</html>
+
+
+
+          
